@@ -1,0 +1,26 @@
+{
+  "name": "codigo-morsa-auth",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "bcryptjs": "^2.4.3",
+    "knex": "^2.1.0",
+    "mysql": "^2.18.1",
+    "next": "12.1.6",
+    "next-iron-session": "^4.2.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "swr": "^1.3.0"
+  },
+  "devDependencies": {
+    "eslint": "8.18.0",
+    "eslint-config-next": "12.1.6"
+  }
+}
